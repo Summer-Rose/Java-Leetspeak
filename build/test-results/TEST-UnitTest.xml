@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-10-02T17:02:42" hostname="Summer-PC" time="0.004">
+<testsuite name="UnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-10-03T15:07:29" hostname="Summer-PC" time="0.005">
   <properties/>
-  <testcase name="leetspeak_returnsWordAsIsWhenLeetspeakNotPresent_wordAsIs" classname="UnitTest" time="0.004"/>
-  <testcase name="leetspeak_replacesEWith3_wordChanges" classname="UnitTest" time="0.0"/>
+  <testcase name="leetspeak_replacesLowerAndUpperCaseLetters_wordChanges" classname="UnitTest" time="0.003"/>
+  <testcase name="leetspeak_returnsWordAsIsWhenLeetspeakNotPresent_wordAsIs" classname="UnitTest" time="0.0"/>
+  <testcase name="leetspeak_replacesLowerCaseLetter_wordChanges" classname="UnitTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

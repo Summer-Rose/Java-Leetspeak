@@ -10,8 +10,17 @@ public class UnitTest {
 	}
 
 	@Test
-	public void leetspeak_replacesEWith3_wordChanges() {
+	public void leetspeak_replacesLowerCaseLetter_wordChanges() {
 		Leetspeak testLeetspeak = new Leetspeak();
-		assertEquals("h3y", testLeetspeak.leetspeak("hey"));
+		String results = "h3ll0 w0rld";
+		assertEquals(results, testLeetspeak.leetspeak("hello world"));
 	}
+
+	@Test
+	public void leetspeak_replacesLowerAndUpperCaseLetters_wordChanges() {
+		Leetspeak testLeetspeak = new Leetspeak();
+		String results = "3at 0atm3al";
+		assertEquals(results, testLeetspeak.leetspeak("Eat Oatmeal"));
+	}
+
 }
