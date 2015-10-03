@@ -1,0 +1,24 @@
+<h1 class="well">Leetspeak Translator</h1>
+
+<h2>H3ll0 and w3lc0m3 t0 th3 l33tsp3ak tranzlat0r.</h2>
+<h3>Enter some text below and I'll translate it into l33tsp3ak for you!</h3>
+<form action="/leetspeak" method="post">
+	<div class="form-group">
+		<textarea name="text" id="text" placeholder="Enter your text here" class="form-control" rows="7"></textarea>
+	</div>
+	<button type="submit" class="btn btn-warning">Tranzlat3</button>
+</form>
+<br>
+<hr>
+#if ($leetspeak)
+<div class="row">
+	<div class="col-sm-6 col-md-6 col-lg-6">
+		<h4>Your Text:</h4>
+		<p>$text</p>
+	</div>
+	<div class="col-sm-6 col-md-6 col-lg-6">
+		<h4>Your Text in Leetspeak:</h4>
+		<p>$leetspeak</p>
+	</div>  
+</div>
+#end
